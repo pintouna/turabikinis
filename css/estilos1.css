@@ -1,0 +1,47 @@
+/* header */
+header.banner {
+  width: 100%;
+  padding: 9rem 0rem;
+  text-align: center;
+  background: url(../Img/Banner.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+}
+
+header.banner h1 {
+  color: #f1f1f1;
+  font-family: 'Rock Salt';
+}
+
+/* Footer */
+footer div.pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+body {
+  background-color: salmon;
+}
+
+section.info {
+  background-color: peru;
+  padding: 10px;
+}
+
+section.info.info__texto {
+  color: chartreuse;
+  font-size: 24px;
+  background-color: black;
+}
+/*# sourceMappingURL=estilos1.css.map */

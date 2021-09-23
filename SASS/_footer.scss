@@ -1,0 +1,12 @@
+/* Footer */
+
+footer {
+	div{
+		&.pie{
+				 display: flex;
+				flex-direction: row;
+				justify-content: center;
+				padding: 20px;
+		}
+	}
+}

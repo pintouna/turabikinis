@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+body {
+    background-color: salmon;
+    
+}
+
+
+
+section{
+	&.info{
+		background-color:peru;
+		padding: 10px;
+		&.info__texto{
+			color: chartreuse;
+			font-size: 24px;
+			background-color: black;
+			}
+		}
+	}
+
+
