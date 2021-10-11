@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* header */
+header.banner {
+  width: 100%;
+  padding: 9rem 0rem;
+  text-align: center;
+  background: url(../Img/Banner.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+}
+
+header.banner h1 {
+  color: #f1f1f1;
+  font-family: 'Rock Salt';
+}
+
+/* Footer */
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f0), to(#90CAF9));
+  background-image: linear-gradient(#f8f8f0, #90CAF9);
+}
+
+footer div.pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+footer div.pie i {
+  padding: 20px;
+}
+
+/*ACÁ (GENERALES) AGREGUÉ UN CONDICIONAL EN H3*/
+/* generales */
+html {
+  /* etiqueta raíz */
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f8f8f0;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-family: 'Cabin Sketch';
+  padding: 3px;
+  color: #c90da0;
+}
+
+/*BUCLE*/
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+/*EACH*/
+.bg--#f8f8f0 {
+  background-color: #d8859f;
+}
+
+.bg--#d8859f {
+  background-color: #d8859f;
+}
+
+.bg--#90CAF9 {
+  background-color: #d8859f;
+}
+
+.navbar {
+  background-color: #d8859f;
+}
+
+.botonfin {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Caveat', cursives;
+}
+
+.botonfin .botonfin__texto {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  letter-spacing: 3px;
+  font-size: 23px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.botonfin .botonfin__texto.botonfin__texto:hover {
+  background-color: #d8859f;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-box-shadow: 0 0 10px #d8859f, 0 0 40px #d8859f, 0 0 80px #d8859f;
+          box-shadow: 0 0 10px #d8859f, 0 0 40px #d8859f, 0 0 80px #d8859f;
+  color: #f8f8f0;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+/*# sourceMappingURL=estilos1.css.map */

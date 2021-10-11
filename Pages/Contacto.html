@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@700&family=Lobster&family=Vollkorn:ital@1&family=Rock+Salt&family=Cabin+Sketch:wght@700&family=Caveat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <meta name="description" content="Tenés alguna duda o consulta? Dejanos tu mensaje, te leemos">
+        <meta name="keywords" content="Contacto, TuraBikinis, bikinis">
+        
+        <title>ContactoTura</title>
+    </head>
+<body>
+    <header class="banner">
+        <h1>Verano Eterno</h1>
+    </header>
+    <h1> <a href="../index.html"><img src="../Img/logo.png" alt="LOGO" width="120" height="120"></a></h1>
+  <!--COMIENZA LA NAVBAR CON BOOTSTRAP-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-tura">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="Pages/Tubikini.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tubikini
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../Pages/Tubikini.html">Bikinis</a></li> 
+                    <li><a class="dropdown-item" href="#">Bombachas</a></li> <!--COMPLETAR CON RUTA DE PÁGINA EN "#"(CUANDO LO CREE)-->
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Tops</a></li> <!--COMPLETAR CON RUTA DE PÁGINA EN "#"(CUANDO LO CREE)-->
+                  </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/Tutalle.html">Tutalle</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Pages/Medioambiente.html">MedioAambiente</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Pages/Contacto.html">Contacto</a>
+                      </li>
+                  </li>
+                  </ul>
+                  <form class="d-flex">
+                    <button class="btn btn-outline-success" type="submit">Mi carrito <i class="fas fa-shopping-cart"></i></button>
+                    </form>
+              </div>
+            </div>
+          </nav>
+
+    </div>
+    <!--TERMINA LA NAVBAR CON BOOTSTRAP-->
+    <hr>
+    <div class="botonfin">
+      <a class="botonfin__texto" href="#footer">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+        <span id="span4"></span>
+        Encontranos en nuestras Redes
+      </a>
+    </div>
+    <main>
+        <h3>Contacto</h3>
+    <hr>
+    <section class="mensajes__">
+        <form action="">
+            <fieldset>
+                <leyend>Datos del usuario</leyend>
+            <label for="usuario">Usuario</label> <input type="text" name="usuario" placeholder="aqui ingrese su nombre de usuario">
+            <br>
+            <label for="contraseña">Constraseña</label> <input type="password" name="ingrese su contraseña">
+            <br>
+            <br>
+            <label for="areadetexto">Opinión</label>
+            <br>
+            <textarea name="areadetexto" id="" cols="30" rows="10" placeholder="Ingrese aquí su opinión"></textarea>
+            <br>
+            <br>
+            <label for="masculino">hombre</label>
+            <input type="radio" name="sexo" value="hombre" id="masculino">
+            <br>
+            <label for="femenino">mujer</label>
+            <input type="radio" name="sexo" value="mujer" id="femenino">
+            <br>
+            <label for="acepta terminos y condiciones">Acepta termino y condiciones</label>
+            <input type="checkbox" name="acepta terminos y condiciones" value="1"/>
+            <br>
+            <br>
+            <label for="categorias">Seleccioná tu categoría preferida</label>
+                <select name="categorias" id="">
+                    <option value="F">Corpiños</option>
+                    <option value="V">Tops</option>
+                    <option value="C">Bombachas </option>
+            </select>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Vaciar">
+        </fieldset>
+        </form>
+    </section>
+</main>
+<hr>
+<footer id="footer">
+    <div class="pie">
+        <i class="fa-ig"><a href="https://instagram.com/"><img src="../Img/instagram.png" alt="IG"width="40" height="40"></a></i>
+        <i class="fa-fb"><a href="https://www.facebook.com/"><img src="../Img/facebook.png" alt="" width="40" height="40"></a></i>    
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

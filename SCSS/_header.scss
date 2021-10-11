@@ -1,0 +1,18 @@
+/* header */
+header{
+	&.banner{
+            width: 100%;
+            padding: 9rem 0rem;
+            text-align: center;
+            background: url(../Img/Banner.jpg);
+            background-color: rgba(0,0,0,.3);
+            background-blend-mode: soft-light;
+            background-size: cover;
+            background-position: center;
+               h1 {
+                    color: #f1f1f1;
+                    font-family: 'Rock Salt';
+
+                }
+            }
+    }

@@ -1,0 +1,89 @@
+@import 'variables';
+/* generales */
+html { /* etiqueta raíz */
+   font-size: 62.5%;
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body {
+    background-color:$colorfondos;
+    
+}
+
+body{
+	font-family: 'Montserrat'
+}
+
+
+
+
+$colorfondos: $colorfondos;
+
+h3{
+	font-family: 'Cabin Sketch';
+	padding: 3px;
+
+	@if $colorfondos ==#f8f8f0{
+		color:rgb(201, 13, 160);
+		
+	} @else if $colorfondos == light{
+			color:black;
+			background-color: bisque;	
+	}@else if
+		$colorfondo ==black{
+		color: rgb(171, 148, 177);
+		background-color:lighten($color: #000000, $amount: 0);
+	} @else {
+		color: green;
+		background-color: orange;
+	}
+} 
+
+/*BUCLE*/
+
+@for $i from 1 through 5 {
+	h#{$i} {
+	font-size: 60px / $i ;	
+	}
+}
+
+/*EACH*/
+
+@each $background in $colorfondos, $colormenu,#90CAF9  {
+	.bg--#{$background} {
+			background-color: $colormenu;
+	}
+}
+.navbar{
+	background-color:$colormenu;
+}
+.botonfin{margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Caveat', cursives;
+				.botonfin__texto{
+								position: relative;
+								display: inline-block;
+								padding: 15px 30px;
+								color: black ;
+								letter-spacing: 3px;
+								font-size: 23px;
+								text-decoration: none;
+								overflow: hidden;
+													&.botonfin__texto:hover{
+																background-color: $colormenu;
+																transition: all 1s;
+																box-shadow: 0 0 10px $colormenu, 0 0 40px 
+																$colormenu, 0 0 80px $colormenu ;
+																color:$colorfondos ;
+															transition-delay: 1s;
+												}
+						}
+}	
+					

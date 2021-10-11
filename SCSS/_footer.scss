@@ -1,0 +1,16 @@
+/* Footer */
+
+footer {background-image:linear-gradient(#f8f8f0,#90CAF9);
+	div{
+		&.pie{
+				 display: flex;
+				flex-direction: row;
+				justify-content: center;
+				padding: 20px;
+				& i{
+					padding: 20px;
+				}
+				
+		}
+	}
+}
